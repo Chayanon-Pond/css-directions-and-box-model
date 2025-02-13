@@ -1,1 +1,22 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.lightgrey {
+    border: 16px solid lightgrey;
+}
+.black{
+    border: 16px solid black;
+}
+.red {
+    border: 16px solid crimson;
+}
+.khaki {
+    background: khaki;
+    text-align: center;
+    font-size: 72px;
+    padding-top: 30px;
+}
