@@ -1,1 +1,36 @@
 /* Start coding here */
+:root{
+    --lightgray-16: lightgray;
+    --black-16: black;
+    --crimson-24: crimson;
+    --techup-size: 72px;
+    --techup-margin: 30px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.lightgray{
+    border: 16px solid var(--lightgray-16);
+}
+
+.black{
+    border: 16px solid var(--black-16);
+}
+
+.red{
+    border: 24px solid var(--crimson-24);
+}
+
+.khaki{
+    background-color: khaki;
+    font-size: var(--techup-size);
+    padding-top:var(--techup-margin);
+    display:flex;
+    justify-content: center;
+}
