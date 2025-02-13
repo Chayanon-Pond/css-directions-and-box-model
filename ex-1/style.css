@@ -1,1 +1,53 @@
 /* Start coding here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --darkblue: #183b56;
+    --indigo: #92aabd;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    font-family: "Roboto", serif;
+}
+
+h1{
+    color: #183b56;
+    height: 10%;
+    width: 100%;
+    background-color: var(--indigo);
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 30px;
+}
+
+.header{
+    width: 100%;
+    color: var(--darkblue);
+    background-color: var(--indigo);
+}
+
+.contianer{
+    padding: 30px;
+}
+
+.contianer .box{
+    border: 2px solid var(--darkblue);
+    background-color: var(--indigo);
+    color: var(--darkblue);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.contianer .box h3{
+    margin-bottom: 10px;
+}
+
+.contianer .box img{
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
